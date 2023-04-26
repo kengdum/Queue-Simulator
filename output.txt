@@ -1,0 +1,103 @@
+Time:0
+Server{id=1, tasks=[{0 3}, {0 3}]}
+Server{id=2, tasks=[{0 3}, {0 4}]}
+Server{id=3, tasks=[{0 2}, {0 1}, {0 3}]}
+Server{id=4, tasks=[{0 4}, {0 4}]}
+Time:1
+Server{id=1, tasks=[{0 2}, {0 3}, {1 4}]}
+Server{id=2, tasks=[{0 2}, {0 4}, {1 4}]}
+Server{id=3, tasks=[{0 1}, {0 1}, {0 3}, {1 2}, {1 3}]}
+Server{id=4, tasks=[{0 3}, {0 4}, {1 4}]}
+Time:2
+Server{id=1, tasks=[{0 1}, {0 3}, {1 4}, {2 3}]}
+Server{id=2, tasks=[{0 1}, {0 4}, {1 4}, {2 4}]}
+Server{id=3, tasks=[{0 0}, {0 1}, {0 3}, {1 2}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 2}, {0 4}, {1 4}]}
+Time:3
+Server{id=1, tasks=[{0 0}, {0 3}, {1 4}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{0 0}, {0 4}, {1 4}, {2 4}]}
+Server{id=3, tasks=[{0 0}, {0 3}, {1 2}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 1}, {0 4}, {1 4}, {3 1}]}
+Time:4
+Server{id=1, tasks=[{0 2}, {1 4}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{0 3}, {1 4}, {2 4}]}
+Server{id=3, tasks=[{0 2}, {1 2}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 0}, {0 4}, {1 4}, {3 1}]}
+Time:5
+Server{id=1, tasks=[{0 1}, {1 4}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{0 2}, {1 4}, {2 4}]}
+Server{id=3, tasks=[{0 1}, {1 2}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 3}, {1 4}, {3 1}]}
+Time:6
+Server{id=1, tasks=[{0 0}, {1 4}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{0 1}, {1 4}, {2 4}]}
+Server{id=3, tasks=[{0 0}, {1 2}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 2}, {1 4}, {3 1}]}
+Time:7
+Server{id=1, tasks=[{1 3}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{0 0}, {1 4}, {2 4}]}
+Server{id=3, tasks=[{1 1}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 1}, {1 4}, {3 1}]}
+Time:8
+Server{id=1, tasks=[{1 2}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{1 3}, {2 4}]}
+Server{id=3, tasks=[{1 0}, {1 3}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{0 0}, {1 4}, {3 1}]}
+Time:9
+Server{id=1, tasks=[{1 1}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{1 2}, {2 4}]}
+Server{id=3, tasks=[{1 2}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{1 3}, {3 1}]}
+Time:10
+Server{id=1, tasks=[{1 0}, {2 3}, {3 4}]}
+Server{id=2, tasks=[{1 1}, {2 4}]}
+Server{id=3, tasks=[{1 1}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{1 2}, {3 1}]}
+Time:11
+Server{id=1, tasks=[{2 2}, {3 4}]}
+Server{id=2, tasks=[{1 0}, {2 4}]}
+Server{id=3, tasks=[{1 0}, {2 1}, {2 3}]}
+Server{id=4, tasks=[{1 1}, {3 1}]}
+Time:12
+Server{id=1, tasks=[{2 1}, {3 4}]}
+Server{id=2, tasks=[{2 3}]}
+Server{id=3, tasks=[{2 0}, {2 3}]}
+Server{id=4, tasks=[{1 0}, {3 1}]}
+Time:13
+Server{id=1, tasks=[{2 0}, {3 4}]}
+Server{id=2, tasks=[{2 2}]}
+Server{id=3, tasks=[{2 2}]}
+Server{id=4, tasks=[{3 0}]}
+Time:14
+Server{id=1, tasks=[{3 3}]}
+Server{id=2, tasks=[{2 1}]}
+Server{id=3, tasks=[{2 1}]}
+Server{id=4, tasks=[]}
+Time:15
+Server{id=1, tasks=[{3 2}]}
+Server{id=2, tasks=[{2 0}]}
+Server{id=3, tasks=[{2 0}]}
+Server{id=4, tasks=[]}
+Time:16
+Server{id=1, tasks=[{3 1}]}
+Server{id=2, tasks=[]}
+Server{id=3, tasks=[]}
+Server{id=4, tasks=[]}
+Time:17
+Server{id=1, tasks=[{3 0}]}
+Server{id=2, tasks=[]}
+Server{id=3, tasks=[]}
+Server{id=4, tasks=[]}
+Time:18
+Server{id=1, tasks=[]}
+Server{id=2, tasks=[]}
+Server{id=3, tasks=[]}
+Server{id=4, tasks=[]}
+Time:19
+Server{id=1, tasks=[]}
+Server{id=2, tasks=[]}
+Server{id=3, tasks=[]}
+Server{id=4, tasks=[]}
+Average Service time 3
+Peak hour 3
+Average waiting time 6.125000
